@@ -1,0 +1,95 @@
+<!-- index.html -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DoaBairro - Mapeador de Doações Locais</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <!-- Menu Principal (Conforme item 1 do requisito) -->
+    <header class="navbar">
+        <div class="container nav-container">
+            <a href="index.html" class="logo">📍 Doa<span>Bairro</span></a>
+            <nav class="nav-links">
+                <a href="index.html" class="active">Home</a>
+                <a href="sobre.html">Sobre Nós</a>
+                <a href="projetos.html">Projetos</a>
+                <a href="impacto.html">Impacto</a>
+                <a href="acessibilidade.html">Acessibilidade</a>
+                <a href="galeria.html">Galeria</a>
+                <a href="midia.html">Mídia</a>
+                <a href="noticias.html">Notícias</a>
+                <a href="contato.html" class="btn-secondary">Contato</a>
+                <a href="orcamento_hospedagem.html" style="font-size: 0.85rem;">Orçamento</a>
+            </nav>
+        </div>
+    </header>
+
+    <!-- Resumo do Tema e Apresentação (Conforme item 1 do requisito) -->
+    <section class="hero">
+        <div class="container hero-container">
+            <h1>Quem está perto de você precisa de <span>ajuda hoje</span>.</h1>
+            <p>O <strong>DoaBairro</strong> é um mapeador que conecta pequenas ONGs e projetos sociais locais a moradores que querem doar mantimentos, roupas e suprimentos de forma rápida e direta.</p>
+            
+            <div class="search-box">
+                <input type="text" placeholder="Digite seu CEP ou bairro (ex: Tatuapé)...">
+                <button type="button" class="btn-primary">Buscar Necessidades</button>
+            </div>
+        </div>
+    </section>
+
+    <!-- Seção de Destaques da Home -->
+    <section class="urgencies container">
+        <div class="section-title">
+            <h2>Pedidos de Ajuda Urgentes</h2>
+            <p>Projetos que precisam de arrecadação imediata no seu bairro</p>
+        </div>
+
+        <div class="cards-grid">
+            <div class="card">
+                <span class="badge badge-food">Alimentos</span>
+                <h3>Instituto Amigos do Bem</h3>
+                <p class="distance">📍 A 1.2 km de você</p>
+                <p class="description">Estamos com o estoque zerado de leite em pó e arroz para as 40 famílias assistidas neste mês.</p>
+                <div class="progress-bar"><div class="progress" style="width: 45%;"></div></div>
+                <div class="card-footer">
+                    <span>45% Arrecadado</span>
+                    <a href="projetos.html" class="card-link">Quero Ajudar →</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <span class="badge badge-pets">Causa Animal</span>
+                <h3>Anjos de Patas</h3>
+                <p class="distance">📍 A 2.5 km de você</p>
+                <p class="description">Precisamos urgentemente de ração para cães adultos e produtos de limpeza para o canil comunitário.</p>
+                <div class="progress-bar"><div class="progress" style="width: 80%;"></div></div>
+                <div class="card-footer">
+                    <span>80% Arrecadado</span>
+                    <a href="projetos.html" class="card-link">Quero Ajudar →</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <span class="badge badge-clothes">Roupas</span>
+                <h3>Varal Solidário</h3>
+                <p class="distance">📍 A 0.8 km de você</p>
+                <p class="description">Triagem de agasalhos e cobertores para a população em situação de rua com a chegada da frente fria.</p>
+                <div class="progress-bar"><div class="progress" style="width: 20%;"></div></div>
+                <div class="card-footer">
+                    <span>20% Arrecadado</span>
+                    <a href="projetos.html" class="card-link">Quero Ajudar →</a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="footer">
+        <p>&copy; 2026 DoaBairro. Criado para fortalecer comunidades locais e gerar impacto social.</p>
+    </footer>
+
+</body>
+</html>
